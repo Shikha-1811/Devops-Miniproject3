@@ -1,0 +1,11 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# AWS keys (do NOT upload private keys)
+minipro-key
+minipro-key.pub
+*.pem
+

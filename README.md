@@ -18,7 +18,7 @@ This project uses Terraform to automatically provision an EC2 instance on AWS an
 ---
 
 ##  Project Structure
-
+```
 ├── backend.tf # Config for S3 remote backend
 ├── provider.tf # AWS provider configuration
 ├── Keypair.tf # Creates key pair for SSH access
@@ -28,7 +28,7 @@ This project uses Terraform to automatically provision an EC2 instance on AWS an
 ├── vars.tf # Variables used across resources
 ├── .gitignore # Ignore sensitive & local files
 └── README.md # Project documentation
-
+```
 
 ---
 
